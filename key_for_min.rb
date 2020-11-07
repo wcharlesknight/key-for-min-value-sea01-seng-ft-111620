@@ -2,8 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
- if name_hash == {}
-   return nil
  name_array = name_hash.to_a 
  holder_k = 0 
  holder_v = 1000
