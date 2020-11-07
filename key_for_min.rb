@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
  holder_k = 0 
  holder_v = 1000
  name_array.each do |i|
-   if i[1] < holder_v or nil 
+   if i[1] < holder_v or
      holder_v = i[1]
      holder_k = i[0]
    end
